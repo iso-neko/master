@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipe_search">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar5"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="408dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#5400BBD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/homebutton"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/turnback"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:text="レシピ検索"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:background="@android:color/darker_gray"
+        android:color="#797979"
+        android:queryHint="検索"
+        android:iconifiedDefault="false"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/pen"
+        android:gravity="center_vertical|center"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:text="レシピを投稿する"
+        app:backgroundTint="#478ABF"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="220dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar3"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="408dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="607dp"
+        app:backgroundTint="#5400BBD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="?attr/colorButtonNormal"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="?attr/colorButtonNormal"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="ログイン"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:text="ID"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar3"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パスワード"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パスワードを忘れた方はこちらへ"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="ログイン"
+        android:textSize="24sp"
+        app:backgroundTint="#478ABF"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/turnback"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/homebutton"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

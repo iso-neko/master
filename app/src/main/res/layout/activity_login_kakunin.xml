@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_kakunin">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="0000000001"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パスワード"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="********"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="xxx.xxx@xxx.com"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="男"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:text="1"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="森本 龍"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:text="モリモト リュウ"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="登録"
+        android:textSize="24sp"
+        app:backgroundTint="#478ABF"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="メールアドレス"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="月"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="年"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生年月日"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="フリガナ"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名前"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar2"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="408dp"
+        android:layout_height="124dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#5400BBD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/homebutton"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/turnback"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:text="サインイン"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="1997"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:text="1"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="301dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
