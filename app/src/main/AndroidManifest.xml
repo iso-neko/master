@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication_login">
-        <activity android:name=".recipe_create"></activity>
+        <activity android:name=".newpage"></activity>
+        <activity android:name=".recipe_create" />
         <activity android:name=".Recipe_search" />
         <activity android:name=".Signin_user" />
         <activity android:name=".login_kakunin" />
