@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication_login">
-        <activity android:name=".recipe_list"></activity>
+        <activity android:name=".recipe_review"></activity>
+        <activity android:name=".product_search" />
+        <activity android:name=".chokubaizyo_search" />
+        <activity android:name=".recipe_list" />
         <activity android:name=".newpage_02" />
         <activity android:name=".newpage" />
         <activity android:name=".recipe_create" />
